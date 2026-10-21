@@ -1,0 +1,34 @@
+[
+  {
+    "file": "AirTag_snap_retaining_ring.stl",
+    "bytes": 128084,
+    "triangles": 2560,
+    "sha256": "950ce6bb3b1715c70d3f7e76eee7fe4081f4b8a3ac9337665601e4db80920358",
+    "units": "mm",
+    "placement": "assembly coordinates; not bed-normalized"
+  },
+  {
+    "file": "Camera_shell_and_AirTag_pod.stl",
+    "bytes": 134384,
+    "triangles": 2686,
+    "sha256": "2a1fb61bf2676f60ab57eb97872a69e06e55da9a47dba4d8e16d7d99a81fe15c",
+    "units": "mm",
+    "placement": "assembly coordinates; not bed-normalized"
+  },
+  {
+    "file": "PaperDIY_shell_and_service_tray.stl",
+    "bytes": 63684,
+    "triangles": 1272,
+    "sha256": "c0585b957aeecae3c3eab40db4211517df7495ea0770fdbef6d603bcff11f493",
+    "units": "mm",
+    "placement": "assembly coordinates; not bed-normalized"
+  },
+  {
+    "file": "PaperDIY_snap_window_frame.stl",
+    "bytes": 33484,
+    "triangles": 668,
+    "sha256": "8f9f9e47b71a2889d47ba24eb8bcaf587de2cda1be006f853df62fc3e04f3fe3",
+    "units": "mm",
+    "placement": "assembly coordinates; not bed-normalized"
+  }
+]

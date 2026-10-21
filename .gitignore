@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.blend1
+local_reference/
+*.usdz
+*.exr
+*.hdr
+*prepared*.json
+*finalized*.json
+library_*/

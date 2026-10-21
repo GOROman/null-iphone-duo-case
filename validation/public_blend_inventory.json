@@ -1,0 +1,22 @@
+[
+  {
+    "file": "design/case_parts_mm.blend",
+    "objects": [
+      "Basic camera-side shell",
+      "Basic opposite-side shell"
+    ],
+    "external_file_images": 0,
+    "apple_model_objects": 0
+  },
+  {
+    "file": "archive/R04/design/case_parts_mm.blend",
+    "objects": [
+      "Camera shell + AirTag pod",
+      "PaperDIY shell + service tray",
+      "AirTag snap retaining ring",
+      "PaperDIY snap window frame"
+    ],
+    "external_file_images": 0,
+    "apple_model_objects": 0
+  }
+]

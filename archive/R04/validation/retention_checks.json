@@ -1,0 +1,45 @@
+{
+  "units": "mm",
+  "scope": "Seated-state surface intersections only; positive-clearance contained parts are not diagnosed by surface test. No insertion or flex simulation.",
+  "checks": [
+    {
+      "a": "Camera shell + AirTag pod",
+      "b": "AirTag snap retaining ring",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "a": "PaperDIY shell + service tray",
+      "b": "PaperDIY snap window frame",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "a": "Camera shell + AirTag pod",
+      "b": "AirTag nominal whole-unit envelope",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "a": "AirTag snap retaining ring",
+      "b": "AirTag nominal whole-unit envelope",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "a": "PaperDIY shell + service tray",
+      "b": "K159 maximum envelope",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "a": "PaperDIY snap window frame",
+      "b": "K159 maximum envelope",
+      "surface_triangle_pairs": 0
+    }
+  ],
+  "nominal_clearances_mm": {
+    "tag_radial": 0.55,
+    "tag_floor": 0.4,
+    "ring_bead_groove_radial": 0.25,
+    "ring_bead_insertion_radial_deflection": 0.3,
+    "paper_kit_to_tongue": 0.25,
+    "paper_carrier_to_kit": 0.3,
+    "phone_front_lip_to_AR_min": 0.19
+  }
+}

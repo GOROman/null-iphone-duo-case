@@ -1,0 +1,58 @@
+[
+  {
+    "part": "Camera shell + AirTag pod",
+    "vertices": 1343,
+    "faces": 619,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 11389.385380268552,
+    "bbox_mm": [
+      79.30000305175781,
+      123.0,
+      16.599998474121094
+    ],
+    "retention": "R04 snap geometry implemented; force, fatigue and real fit unverified"
+  },
+  {
+    "part": "PaperDIY shell + service tray",
+    "vertices": 634,
+    "faces": 325,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 19101.01457349144,
+    "bbox_mm": [
+      79.30000305175781,
+      123.0,
+      15.59999942779541
+    ],
+    "retention": "R04 snap geometry implemented; force, fatigue and real fit unverified"
+  },
+  {
+    "part": "AirTag snap retaining ring",
+    "vertices": 1280,
+    "faces": 1280,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 1683.19149529554,
+    "bbox_mm": [
+      42.0,
+      42.0,
+      3.8000001907348633
+    ],
+    "retention": "R04 snap geometry implemented; force, fatigue and real fit unverified"
+  },
+  {
+    "part": "PaperDIY snap window frame",
+    "vertices": 330,
+    "faces": 181,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 3624.963436378741,
+    "bbox_mm": [
+      70.19999694824219,
+      121.05000305175781,
+      6.200000286102295
+    ],
+    "retention": "R04 snap geometry implemented; force, fatigue and real fit unverified"
+  }
+]
