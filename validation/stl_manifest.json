@@ -1,0 +1,18 @@
+[
+  {
+    "file": "Basic_camera-side_shell.stl",
+    "units": "mm",
+    "triangles": 3162,
+    "bytes": 158184,
+    "sha256": "ca2e6ae5d122939e30e085ec8be4574b4128711ab38639e4e3a4e7a0fbd143f2",
+    "revision": "Basic B02"
+  },
+  {
+    "file": "Basic_opposite-side_shell.stl",
+    "units": "mm",
+    "triangles": 596,
+    "bytes": 29884,
+    "sha256": "0b8c0fe953b06e53a7e23c43a614486b5505a629d28cb766ec2aeb925ad401e7",
+    "revision": "Basic B02"
+  }
+]

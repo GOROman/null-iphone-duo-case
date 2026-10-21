@@ -1,0 +1,30 @@
+[
+  {
+    "part": "Basic camera-side shell",
+    "vertices": 185,
+    "faces": 97,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 8889.536033050857,
+    "bbox_mm": [
+      79.30000305175781,
+      122.0999984741211,
+      7.399999618530273
+    ],
+    "retention": "Front lip geometry only; insertion, force and real fit unverified"
+  },
+  {
+    "part": "Basic opposite-side shell",
+    "vertices": 296,
+    "faces": 151,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_mm3": 12694.09080917043,
+    "bbox_mm": [
+      79.30000305175781,
+      122.0999984741211,
+      7.399999618530273
+    ],
+    "retention": "Front lip geometry only; insertion, force and real fit unverified"
+  }
+]

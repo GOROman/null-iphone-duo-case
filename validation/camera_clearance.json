@@ -1,0 +1,7 @@
+{
+  "scope": "All visible compact camera-region AR meshes contained in XY opening. No lens field-of-view, reflection, flash flare, acoustic or real hardware test. Mesh semantics not independently confirmed.",
+  "all_inside_opening": true,
+  "min_clearance_mm": 0.5499927843692871,
+  "rim_height_above_highest_checked_mesh_mm": 0.6000004475402836,
+  "checked_mesh_count": 29
+}

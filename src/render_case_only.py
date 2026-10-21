@@ -10,4 +10,6 @@ for o in bpy.context.scene.objects:
 s=bpy.context.scene;s.render.engine='CYCLES';s.cycles.samples=32;s.cycles.use_denoising=True
 s.world.use_nodes=True;n=s.world.node_tree;n.nodes.clear();e=n.nodes.new('ShaderNodeTexEnvironment');e.image=bpy.data.images.load(sys.argv[sys.argv.index('--')+1]);b=n.nodes.new('ShaderNodeBackground');b.inputs['Strength'].default_value=.7;out=n.nodes.new('ShaderNodeOutputWorld');n.links.new(e.outputs[0],b.inputs[0]);n.links.new(b.outputs[0],out.inputs[0])
 bpy.ops.object.camera_add(location=(180,-230,235));s.camera=bpy.context.object;s.camera.rotation_euler=(Vector((0,0,4))-s.camera.location).to_track_quat('-Z','Y').to_euler();s.camera.data.type='ORTHO';s.camera.data.ortho_scale=220;s.camera.data.clip_end=1000
-s.render.resolution_x=1800;s.render.resolution_y=1350;s.render.resolution_percentage=100;s.render.image_settings.file_format='PNG';s.render.image_settings.color_depth='8';s.render.filepath=R+'/previews/Basic_B01_case_only.png';bpy.ops.render.render(write_still=True)
+s.render.resolution_x=1800;s.render.resolution_y=1350;s.render.resolution_percentage=100;s.render.image_settings.file_format='PNG';s.render.image_settings.color_depth='8';s.render.filepath=R+'/previews/Basic_B02_case_only.png';bpy.ops.render.render(write_still=True)
+
+target=Vector((56,43,3));s.camera.location=target+Vector((55,-70,90));s.camera.rotation_euler=(target-s.camera.location).to_track_quat('-Z','Y').to_euler();s.camera.data.ortho_scale=100;s.render.filepath=R+'/previews/Basic_B02_camera_rim.png';bpy.ops.render.render(write_still=True)

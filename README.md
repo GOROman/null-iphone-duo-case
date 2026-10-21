@@ -1,10 +1,14 @@
-# null-iphone-duo-case — Basic B01
+# null-iphone-duo-case — Basic B02
 
 **まずはシンプルな2ピース透明TPU保護ケース。実機適合未検証・印刷リリースではありません。**
 
-AirTag・PaperDIY・電子部品ポケットを外し、カメラ開口、側面ボタン窓、上下の端子用開口、ヒンジ側の逃げ、前面リップだけを持つ最小構成にしました。下の画像は実際のBlenderケースメッシュをIBLでレンダーしたCGです。実物写真でも印刷済み部品でもありません。半透明の見た目はELEGOO TPU95Aの実測光学特性ではありません。
+AirTag・PaperDIY・電子部品ポケットを外し、元モデルのカメラ輪郭に沿う連続した保護縁、側面ボタン窓、上下の端子用開口、ヒンジ側の逃げ、前面リップだけを持つ最小構成にしました。下の画像は実際のBlenderケースメッシュをIBLでレンダーしたCGです。実物写真でも印刷済み部品でもありません。半透明の見た目はELEGOO TPU95Aの実測光学特性ではありません。
 
-![Basic B01 case-only Blender rendering](previews/Basic_B01_case_only.png)
+![Basic B02 case-only Blender rendering](previews/Basic_B02_case_only.png)
+
+![B02 continuous camera rim close-up](previews/Basic_B02_camera_rim.png)
+
+カメラ開口の片側XY余裕0.55mm、縁の幅1.40mm、ARレンズ面からの保護高さ0.60mm、上端面取り0.25mmを仮値として明示しています。低い裾部分は裏側の逃げで避け、カメラ側背板1.8mm・逃げ上の公称肉厚1.2mmとしています。見える縁と開口は内側カメラ島の曲線に沿った形です。
 
 ## ファイル
 
@@ -31,6 +35,8 @@ blender -b -t 6 --python src/render_case_only.py -- /path/to/studio_small_09_4k.
 各部品の単一連結、非多様体エッジ0、正体積を確認しました。公式Apple ARモデルに重ねた開160度・閉状態の2姿勢で表面三角形交差を確認しています。判定記録は `validation/` にあります。表面交差0だけでは包含、動作中の衝突、実機適合、保持力や印刷成功を証明しません。印刷・プリンター操作は行っていません。
 
 AppleのUSDZや、それを含む装着シーンの `.blend` は同梱していません。公開プレビューも独自ケース部品のみです。公式モデルとの重ね合わせ画像・作業シーンは別の私的作業成果として保存しています。取得・重ね合わせの注意は[参照手順](docs/REFERENCES.md)を参照してください。
+
+B01は [archive/Basic_B01](archive/Basic_B01/) とGit履歴に保存しました。B02の変更と検査は[カメラ周りの設計記録](docs/B02_CAMERA_FIT.md)を参照してください。
 
 ## 将来候補
 

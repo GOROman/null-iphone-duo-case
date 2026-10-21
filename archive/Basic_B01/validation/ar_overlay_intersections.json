@@ -1,0 +1,29 @@
+{
+  "scope": "Single AR-pose surface-triangle overlap, zero epsilon. Not containment, continuous hinge, tolerance, flex or physical fit proof. Intersections require review; not resolved by renaming as clearance.",
+  "results": [
+    {
+      "pose": "OPEN Duo - 160 degree pose",
+      "case": "camera-side shell",
+      "reference_mesh_count": 73,
+      "intersections": []
+    },
+    {
+      "pose": "OPEN Duo - 160 degree pose",
+      "case": "opposite-side shell",
+      "reference_mesh_count": 73,
+      "intersections": []
+    },
+    {
+      "pose": "CLOSED Duo backside up",
+      "case": "camera-side shell",
+      "reference_mesh_count": 73,
+      "intersections": []
+    },
+    {
+      "pose": "CLOSED Duo backside up",
+      "case": "opposite-side shell",
+      "reference_mesh_count": 73,
+      "intersections": []
+    }
+  ]
+}

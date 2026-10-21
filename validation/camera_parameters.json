@@ -1,0 +1,27 @@
+{
+  "revision": "Basic B02",
+  "reference": "Apple Star White eSIM AR camera bump projected convex silhouette; not measured manufacturing CAD",
+  "profile_vertices": 136,
+  "XY_clearance_mm": 0.55,
+  "rim_wall_mm": 1.4,
+  "protection_above_AR_lens_mm": 0.6,
+  "AR_max_lens_W_mm": 5.627655,
+  "top_W_mm": 6.227655,
+  "top_chamfer_mm": 0.25,
+  "AR_bump_bounds_UV_mm": [
+    [
+      -23.938862,
+      39.939732
+    ],
+    [
+      28.513847,
+      57.515499
+    ]
+  ],
+  "physical_fit_and_retention": "unverified",
+  "visible_profile_vertices": 136,
+  "hidden_shoulder_relief_profile_vertices": 79,
+  "camera_back_mm": 1.8,
+  "hidden_relief_top_W_mm": 0.6,
+  "nominal_roof_over_relief_mm": 1.2
+}
